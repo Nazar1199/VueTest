@@ -1,12 +1,79 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "E:\\work\\vueproject1\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CE4150A6-EC00-356D-C9EB-61C02A11DF7A}|vueproject1.esproj|e:\\work\\vueproject1\\src\\components\\samplenaiveui.vue||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{CE4150A6-EC00-356D-C9EB-61C02A11DF7A}|vueproject1.esproj|solutionrelative:src\\components\\samplenaiveui.vue||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE4150A6-EC00-356D-C9EB-61C02A11DF7A}|vueproject1.esproj|e:\\work\\vueproject1\\src\\main.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{CE4150A6-EC00-356D-C9EB-61C02A11DF7A}|vueproject1.esproj|solutionrelative:src\\main.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE4150A6-EC00-356D-C9EB-61C02A11DF7A}|vueproject1.esproj|e:\\work\\vueproject1\\src\\app.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE4150A6-EC00-356D-C9EB-61C02A11DF7A}|vueproject1.esproj|solutionrelative:src\\app.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SampleNaiveUI.vue",
+              "DocumentMoniker": "E:\\work\\vueproject1\\src\\components\\SampleNaiveUI.vue",
+              "RelativeDocumentMoniker": "src\\components\\SampleNaiveUI.vue",
+              "ToolTip": "E:\\work\\vueproject1\\src\\components\\SampleNaiveUI.vue",
+              "RelativeToolTip": "src\\components\\SampleNaiveUI.vue",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
+              "WhenOpened": "2025-02-19T17:10:56.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "main.ts",
+              "DocumentMoniker": "E:\\work\\vueproject1\\src\\main.ts",
+              "RelativeDocumentMoniker": "src\\main.ts",
+              "ToolTip": "E:\\work\\vueproject1\\src\\main.ts",
+              "RelativeToolTip": "src\\main.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-02-19T17:09:58.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "App.vue",
+              "DocumentMoniker": "E:\\work\\vueproject1\\src\\App.vue",
+              "RelativeDocumentMoniker": "src\\App.vue",
+              "ToolTip": "E:\\work\\vueproject1\\src\\App.vue",
+              "RelativeToolTip": "src\\App.vue",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
+              "WhenOpened": "2025-02-19T17:06:16.953Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
