@@ -52,7 +52,6 @@ export const useUsersStore = defineStore('users', {
         console.log(usersWithoutValidation);
         console.log("validatedUsers");
         console.log(this.validatedUsers);
-        //console.log([...this.validatedUsers, ...usersWithoutValidation]);
         localStorage.setItem('users', JSON.stringify([...this.validatedUsers, ...usersWithoutValidation]));
       } else {
         localStorage.setItem('users', JSON.stringify(this.validatedUsers));

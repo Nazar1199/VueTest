@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "E:\\work\\vueproject1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CE4150A6-EC00-356D-C9EB-61C02A11DF7A}|vueproject1.esproj|e:\\work\\vueproject1\\src\\stores\\userstore.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{CE4150A6-EC00-356D-C9EB-61C02A11DF7A}|vueproject1.esproj|solutionrelative:src\\stores\\userstore.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+      "AbsoluteMoniker": "D:0:0:{CE4150A6-EC00-356D-C9EB-61C02A11DF7A}|vueproject1.esproj|e:\\work\\vueproject1\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{CE4150A6-EC00-356D-C9EB-61C02A11DF7A}|vueproject1.esproj|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CE4150A6-EC00-356D-C9EB-61C02A11DF7A}|vueproject1.esproj|e:\\work\\vueproject1\\src\\components\\useritem.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -19,12 +19,20 @@
       "RelativeMoniker": "D:0:0:{CE4150A6-EC00-356D-C9EB-61C02A11DF7A}|vueproject1.esproj|solutionrelative:src\\components\\userlist.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CE4150A6-EC00-356D-C9EB-61C02A11DF7A}|vueproject1.esproj|e:\\work\\vueproject1\\src\\stores\\userstore.ts||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{CE4150A6-EC00-356D-C9EB-61C02A11DF7A}|vueproject1.esproj|solutionrelative:src\\stores\\userstore.ts||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|e:\\work\\vueproject1\\node_modules\\@vue\\runtime-core\\dist\\runtime-core.esm-bundler.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:node_modules\\@vue\\runtime-core\\dist\\runtime-core.esm-bundler.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CE4150A6-EC00-356D-C9EB-61C02A11DF7A}|vueproject1.esproj|e:\\work\\vueproject1\\src\\interfaces\\ivalidation.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
       "RelativeMoniker": "D:0:0:{CE4150A6-EC00-356D-C9EB-61C02A11DF7A}|vueproject1.esproj|solutionrelative:src\\interfaces\\ivalidation.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE4150A6-EC00-356D-C9EB-61C02A11DF7A}|vueproject1.esproj|e:\\work\\vueproject1\\src\\stores\\userstore.ts||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{CE4150A6-EC00-356D-C9EB-61C02A11DF7A}|vueproject1.esproj|solutionrelative:src\\stores\\userstore.ts||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE4150A6-EC00-356D-C9EB-61C02A11DF7A}|vueproject1.esproj|e:\\work\\vueproject1\\src\\stores\\userstore.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{CE4150A6-EC00-356D-C9EB-61C02A11DF7A}|vueproject1.esproj|solutionrelative:src\\stores\\userstore.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -33,7 +41,7 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 163,
+          "DockedWidth": 83,
           "SelectedChildIndex": 2,
           "Children": [
             {
@@ -52,7 +60,7 @@
               "RelativeDocumentMoniker": "src\\components\\UserList.vue",
               "ToolTip": "E:\\work\\vueproject1\\src\\components\\UserList.vue",
               "RelativeToolTip": "src\\components\\UserList.vue",
-              "ViewState": "AgIAABAAAAAAAAAAAAAUwCcAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
               "WhenOpened": "2025-02-19T20:59:38.216Z",
               "EditorCaption": ""
@@ -72,7 +80,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "userStore.ts",
               "DocumentMoniker": "E:\\work\\vueproject1\\src\\stores\\userStore.ts",
               "RelativeDocumentMoniker": "src\\stores\\userStore.ts",
@@ -86,9 +94,35 @@
           ]
         },
         {
-          "DockedWidth": 237,
+          "DockedWidth": 317,
           "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": ".gitignore",
+              "DocumentMoniker": "E:\\work\\vueproject1\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "E:\\work\\vueproject1\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-02-20T21:50:45.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "runtime-core.esm-bundler.js",
+              "DocumentMoniker": "e:\\work\\vueproject1\\node_modules\\@vue\\runtime-core\\dist\\runtime-core.esm-bundler.js",
+              "RelativeDocumentMoniker": "node_modules\\@vue\\runtime-core\\dist\\runtime-core.esm-bundler.js",
+              "ToolTip": "e:\\work\\vueproject1\\node_modules\\@vue\\runtime-core\\dist\\runtime-core.esm-bundler.js",
+              "RelativeToolTip": "node_modules\\@vue\\runtime-core\\dist\\runtime-core.esm-bundler.js",
+              "ViewState": "AgIAAPcAAAAAAAAAAAAwwAsBAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-02-20T20:35:22.373Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -97,7 +131,7 @@
               "RelativeDocumentMoniker": "src\\components\\UserItem.vue",
               "ToolTip": "E:\\work\\vueproject1\\src\\components\\UserItem.vue",
               "RelativeToolTip": "src\\components\\UserItem.vue",
-              "ViewState": "AgIAAHIAAAAAAAAAAAAAAIUAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
               "WhenOpened": "2025-02-19T21:45:18.798Z",
               "EditorCaption": ""
@@ -110,7 +144,7 @@
               "RelativeDocumentMoniker": "src\\classes\\User.ts",
               "ToolTip": "E:\\work\\vueproject1\\src\\classes\\User.ts",
               "RelativeToolTip": "src\\classes\\User.ts",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAIwCkAAAA9AAAAAAAAAA==",
+              "ViewState": "AgIAABoAAAAAAAAAAAAIwFoAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
               "WhenOpened": "2025-02-19T21:19:42.754Z",
               "EditorCaption": ""
@@ -138,13 +172,13 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "userStore.ts",
               "DocumentMoniker": "E:\\work\\vueproject1\\src\\stores\\userStore.ts",
               "RelativeDocumentMoniker": "src\\stores\\userStore.ts",
               "ToolTip": "E:\\work\\vueproject1\\src\\stores\\userStore.ts",
               "RelativeToolTip": "src\\stores\\userStore.ts",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAADAAAABSAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAADcAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
               "WhenOpened": "2025-02-20T16:44:00.271Z",
               "EditorCaption": ""

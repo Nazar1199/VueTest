@@ -145,7 +145,7 @@
       }
     });
 
-    const handleBlur = async (user: User) => {
+      const handleBlur = async (user: User) => {
       await usersStore.saveToLocalStorage();
     };
 
