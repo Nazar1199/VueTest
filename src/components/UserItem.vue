@@ -1,37 +1,37 @@
 <template>
   <n-form inline :model="computedUser" :rules="rules" ref="formRef" style="align-items: flex-end">
-    <n-form-item path="computedMarksString">
+    <n-form-item path="marksString">
       <n-space vertical>
         <n-p v-if="first">Метки</n-p>
           <n-input @blur="handleBlur(computedUser)" maxlength="50" v-model:value="computedMarksString" placeholder="Введите метки" />
       </n-space>
     </n-form-item>
 
-    <n-form-item path="userType">
+    <n-form-item path="_userType">
       <n-space vertical>
         <n-p v-if="first">Тип записи</n-p>
         <n-select @blur="handleBlur(computedUser)" v-model:value="computedUserType" :options="userTypeOptions" placeholder="Выберите тип" style="width: 200px;" />
       </n-space>
     </n-form-item>
 
-    <n-form-item v-if="computedUserType === UserType.LDAP &&  !first" path="login">
+    <n-form-item v-if="computedUserType === UserType.LDAP &&  !first" path="_login">
       <n-space vertical>
         <n-p v-if="first">Логин</n-p>
-        <n-input @blur="handleBlur(computedUser)" maxlength="100" v-model:value="computedLogin" placeholder="Введите логин" style="width: 404px;" />
+        <n-input @blur="handleBlur(computedUser)" v-model:value="computedLogin" placeholder="Введите логин" style="width: 404px;" />
       </n-space>
     </n-form-item>
 
-    <n-form-item v-if="computedUserType !== UserType.LDAP || first" path="login">
+    <n-form-item v-if="computedUserType !== UserType.LDAP || first" path="_login">
       <n-space vertical>
         <n-p v-if="first">Логин</n-p>
-        <n-input @blur="handleBlur(computedUser)" maxlength="100" v-model:value="computedLogin" placeholder="Введите логин" />
+        <n-input @blur="handleBlur(computedUser)" v-model:value="computedLogin" placeholder="Введите логин" />
       </n-space>
     </n-form-item>
 
-    <n-form-item v-if="computedUserType !== UserType.LDAP || first" path="password">
+    <n-form-item v-if="computedUserType !== UserType.LDAP || first" path="_password">
       <n-space vertical>
         <n-p v-if="first">Пароль</n-p>
-        <n-input :disabled="computedUserType === UserType.LDAP" @blur="handleBlur(computedUser)" maxlength="100" v-model:value="computedPassword" type="password" show-password-on="mousedown" placeholder="Введите пароль" :maxlength="100" />
+        <n-input :disabled="computedUserType === UserType.LDAP" @blur="handleBlur(computedUser)" v-model:value="computedPassword" type="password" show-password-on="mousedown" placeholder="Введите пароль" />
       </n-space>
     </n-form-item>
 
@@ -92,11 +92,17 @@
 
       // Правила валидации
       const rules: FormRules = {
-        computedLogin: { required: true, message: 'Введите логин', trigger: 'blur' },
-        computedUserType: { required: true, message: 'Выберите тип', trigger: 'change' },
-        computedPassword: [
-          { required: true, message: 'Введите пароль', trigger: 'blur' },
-          { max: 1, message: 'Пароль не должен превышать 1 символов', trigger: 'blur' }
+        _login:  [
+          { required: true, message: '', trigger: 'blur' },
+          { max: 100, message: '', trigger: 'blur' }
+        ],
+        _userType: [{ required: true, message: '', trigger: 'blur' }],
+        marksString: [
+          { required: false, message: '', trigger: 'blur' },
+          { max: 50, message: '', trigger: 'blur' }],
+        _password: [
+          { required: true, message: '', trigger: 'blur' },
+          { max: 100, message: '', trigger: 'blur' }
         ],
       };
 
